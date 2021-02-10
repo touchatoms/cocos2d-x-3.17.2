@@ -7632,6 +7632,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/../tests/lua-tests/project/proj.ios_mac/mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = (
 					"-pagezero_size",
 					10000,
@@ -7651,6 +7652,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/../tests/lua-tests/project/proj.ios_mac/mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = (
 					"-pagezero_size",
 					10000,
